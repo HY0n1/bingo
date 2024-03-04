@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
+
+:root {
+  --colorBg1: #888;
+  --colorBg2: rgb(50, 50, 50);
+  --colorBg3: #1877F2;
+  --color1: #888;
+  --color2: #eeeeee;
+}
+
+body {
+  margin: 0;
+  font-family: 'Nanum Gothic', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}

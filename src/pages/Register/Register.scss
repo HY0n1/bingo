@@ -1,0 +1,131 @@
+.step1 {
+  width: 480px;
+  max-width:95vw;
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 72px;
+
+  .description {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 8px;
+
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      margin: 4px 0;
+    }
+  }
+
+  .login-example {
+    font-size: 14px;
+    border-left: 2px solid #000;
+    padding-left: 8px;
+
+    p {
+      margin: 4px 0;
+    }
+  }
+
+  .google-login {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    height: 40px;
+    margin-top: 32px;
+    padding: 8px 0;
+    border: 1px solid var(--color2);
+    border-radius: 12px;
+    font-weight: 700;
+    color: #000;
+    cursor: pointer;
+
+    img {
+      position: absolute;
+      left: 16px;
+      width: 48px;
+      height: 48px;
+    }
+  }
+}
+
+.step2 {
+  width: 480px;
+  max-width:95vw;
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 72px;
+
+  .description {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 8px;
+
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      margin: 4px 0;
+
+    }
+
+    img {
+      margin-top: 16px;
+      width: 150px;
+    }
+
+    a {
+      color: rgb(0, 102, 255);
+      text-decoration: underline;
+    }
+  }
+
+  input {
+    padding: 8px 0;
+    text-align: center;
+    margin-top: 8px;
+    border: 0;
+    outline: 0;
+    font-size: 14px;
+    background-color: var(--color2);
+    border-radius: 12px;
+  }
+
+  .register-btn {
+    text-align: center;
+    margin-top: 24px;
+    padding: 12px 0;
+    background-color: #1877F2;
+    border-radius: 12px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+.step-title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 8px;
+  text-align: center;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+@media (max-width: 700px) {
+  .step1, .step2 {
+    margin-top: 36px;
+  }
+}
+
+.policy {
+  align-self: flex-start;
+  font-size: 14px;
+  margin-top: 16px;
+  color: rgb(0, 102, 255);
+  text-decoration: underline;
+}
